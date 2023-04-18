@@ -4,9 +4,9 @@ import ThemeToggle from './ThemeToggle.astro';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/' },
-	{ label: 'Work', href: '/work/' },
-	{ label: 'About', href: '/about/' },
+	{ label: '首页', href: '/' },
+	{ label: '作品', href: '/work/' },
+	{ label: '关于', href: '/about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -17,6 +17,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 	{ label: 'CodePen', href: 'https://codepen.io/me', icon: 'codepen-logo' },
 	{ label: 'dribbble', href: 'https://dribbble.com/me', icon: 'dribbble-logo' },
 	{ label: 'YouTube', href: 'https://www.youtube.com/@me/', icon: 'youtube-logo' },
+	{ label: 'YouTube', href: 'https://www.youtube.com/@me/', icon: 'xiaohongshu' },
 ];
 ---
 
@@ -24,12 +25,12 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 	<div class="menu-header">
 		<a href="/" class="site-title">
 			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Jeanine White
+			安花花
 		</a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
-					<span class="sr-only">Menu</span>
+					<span class="sr-only">菜单</span>
 					<Icon icon="list" />
 				</button>
 			</template>
