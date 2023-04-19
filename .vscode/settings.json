@@ -1,6 +1,12 @@
 {
   "cSpell.words": [
     "astro",
-    "astrojs"
-  ]
+    "astrojs",
+    "Deno",
+    "denoland",
+    "deployctl"
+  ],
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/langliu/WebstormProjects/tangqin-art/.github/workflows/deploy.yml"
+  }
 }
