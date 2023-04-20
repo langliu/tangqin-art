@@ -5,6 +5,6 @@ import deno from '@astrojs/deno';
 // https://astro.build/config
 export default defineConfig({
   integrations: [mdx()],
-  output: 'server',
-  adapter: deno(),
+  site: 'https://tangqin-art.github.io',
+  base: '/tangqin-art',
 });
